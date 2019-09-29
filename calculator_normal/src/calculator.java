@@ -23,7 +23,7 @@ public class calculator {
                     System.out.println(sk1 + " * " + sk2 + " = " + (sk1 * sk2));
                     break;
                 case "/":
-                    if (sk2 == 0 || sk1 == 0){
+                    if (sk2 == 0){
                     System.out.println("Dalyba iš 0 yra negalima");
                 }
                     else{
