@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        kintamieji(0.5, 1, 1.5);
+    }
+        static void kintamieji(double k1, double k2, double k3){
+        double suma;
+        String norma;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Įveskite atlyginimą");
+        suma = s.nextDouble();
+        System.out.println("Įveskite normą");
+        norma = s.next();
+        switch (norma){
+            case "žemiau":
+                System.out.println("Atlyginimas yra: " + (suma * k1));
+                break;
+            case "norma":
+                System.out.println("Atlyginimas yra: " + (suma * k2));
+                break;
+            case "aukščiau":
+                System.out.println("Atlyginimas yra: " + (suma * k3));
+                break;
+            default:
+                System.out.println("Prašome įvesti tinkamą sumą");
+        }
+    }
+}
