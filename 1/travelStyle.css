@@ -1,0 +1,76 @@
+*{
+	background-color: #f75e26;
+}
+h1{
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Monda', sans-serif;
+	font-size: 50;
+}
+select{
+	border: none;
+	width: 120;
+	height: 35;
+	color: #ffffff;
+	font-size: 20;
+}
+body{
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+fieldset{
+	width: 402;
+	height:;
+	float: left;
+	border: none;
+	background-color: #ef6c52;
+}
+.field1{
+	width: 40;
+	height: 36;
+}
+input{
+	border: none;
+	background-color: #ef6c52;
+	color: #fcdcd4;
+	float: left;
+}
+input::placeholder{
+	color: #fcdcd4;
+}
+.place{
+	height: 36;
+	color: #ffffff;
+}
+.a1{
+	width: 50;
+	height: 50;
+	float: left;
+	background-color: #ffffff;
+}
+.a2{
+	width: 40;
+	height: 36;
+	float: left;
+	background-color: #ef6c52;
+}
+.a3{
+	width: 20;
+	height: 20;
+	float: left;
+	background-color: #ef6c52;
+}
+.field2{
+	width: 230;
+	height: 36;
+	float: left;
+	background-color: #ef6c52;
+}
+.field3{
+	width: 450;
+	height: 36;
+	float: left;
+	background-color: #ef6c52;
+}
+.3{
+	text-align: center;
+}
