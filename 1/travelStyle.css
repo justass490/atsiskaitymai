@@ -66,11 +66,23 @@ input::placeholder{
 	background-color: #ef6c52;
 }
 .field3{
-	width: 450;
+	width: 400;
 	height: 36;
 	float: left;
 	background-color: #ef6c52;
 }
-.3{
+.i3{
 	text-align: center;
+	margin: 0 auto;
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
 }
