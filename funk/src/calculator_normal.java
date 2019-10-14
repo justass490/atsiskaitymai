@@ -21,12 +21,7 @@ public class calculator_normal {
                     dauginti(sk1, sk2);
                     break;
                 case "/":
-                    if (sk2 == 0){
-                        System.out.println("Dalyba iš 0 yra negalima");
-                    }
-                    else{
-                        System.out.println(sk1 + " / " + sk2 + " = " + (sk1 / sk2));
-                    }
+                    dalinti();
                     break;
                 case "#":
                     for (int i = 13; i <= 25; i++){
@@ -59,6 +54,12 @@ public class calculator_normal {
         System.out.println("Iveskite antraji skaiciu");
         double sk2 = S.nextDouble();
         System.out.println("Jusu rezultatas: " + sk1 + "/" + sk2 + "=" + (sk1 / sk2));
+        if (sk2 == 0){
+            System.out.println("Dalyba iš 0 yra negalima");
+        }
+        else{
+            System.out.println(sk1 + " / " + sk2 + " = " + (sk1 / sk2));
+        }
     }
     //sudetis
     public static double sudeti(double sk1, double sk2){
