@@ -53,14 +53,22 @@ h2, h3{
   background-repeat: no-repeat;
   background-position: right center;
   background-origin: content-box;
-  background-size: 2.5rem 2.5rem;
-  padding-right: 1.5%;
-  padding-left: 1%;
+  background-size: 1.5rem 1.5rem;
+  padding-right: 1%;
+  padding-left: 0.5%;
 }
 
 }
 .btn{
-	border-radius: 8px;
+	
+}
+.bluebutton{
+
+}
+.whitebutton{
+	background-color: #ffffff;
+	color: #46ADF2;
+	border: 2px solid #46ADF2;
 }
 h6{
 	color: #ffffff;
@@ -81,7 +89,7 @@ i{
 .srch, select{
 	border: 1px solid white;
 	background-color: white;
-	border-radius: 8px;
+	border-bottom: 3px solid gray;
 }
 .far{
 	padding-top: 3%;
@@ -95,4 +103,9 @@ h3{
 }
 h4{
 	padding-bottom: 1.5%;
+}
+.fab{
+	border: 1px solid black;
+	padding-right: 50px;
+	border-radius: 5px;
 }
