@@ -40,6 +40,7 @@ h2, h3{
 }
 .text2{
 	color: #ffffff;
+	padding-top: 7%;
 }
 .email{
 	color: #ffffff;
@@ -48,6 +49,17 @@ h2, h3{
   border-radius: 8px;
   height: 50px;
   width: 250px;
+    background-image: url(envelope-regular.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    padding-right: 1.5%;
+}
+
+}
+.btn{
+	border-radius: 8px;
 }
 h6{
 	color: #ffffff;
@@ -66,7 +78,17 @@ i{
 	color: #3399ff;
 }
 .srch, select{
-	border: 1px solid black;
+	border: 1px solid white;
 	background-color: white;
 	border-radius: 8px;
+}
+.far{
+	padding-top: 3%;
+}
+h3{
+	padding-top: 7%;
+}
+#container15{
+	height: 8px;
+	background-color: #46ADF2;
 }
