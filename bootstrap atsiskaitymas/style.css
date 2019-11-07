@@ -49,12 +49,12 @@ h2, h3{
   border-radius: 8px;
   height: 50px;
   width: 250px;
-    background-image: url(envelope-regular.svg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-origin: content-box;
-    background-size: 2.5rem 2.5rem;
-    padding-right: 1.5%;
+  background-image: url(envelope-regular.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-size: 2.5rem 2.5rem;
+  padding-right: 1.5%;
 }
 
 }
@@ -86,9 +86,12 @@ i{
 	padding-top: 3%;
 }
 h3{
-	padding-top: 7%;
+	padding-top: 5%;
 }
 #container15{
 	height: 8px;
 	background-color: #46ADF2;
+}
+h4{
+	padding-bottom: 1.5%;
 }
