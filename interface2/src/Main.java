@@ -1,7 +1,7 @@
 import bazine.TransportasImpl;
 import isvestine.AutomobilisImpl;
 
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
 
@@ -21,9 +21,9 @@ public class Main{
         TransportasImpl[] list = {transportas1, transportas2, transportas3, transportas4, transportas5, transportas6, transportas7, transportas8, transportas9, transportas10};
         System.out.println("_____________________________________________________");
         System.out.println("Automobiliai, varomi elektra: ");
-        for(TransportasImpl variklis : list) {
-            if (variklis instanceof AutomobilisImpl){
-                if (((AutomobilisImpl) variklis).getVaromasElektra().equals("taip")){
+        for (TransportasImpl variklis : list) {
+            if (variklis instanceof AutomobilisImpl) {
+                if (((AutomobilisImpl) variklis).getVaromasElektra().equals("taip")) {
                     System.out.println("Tipas: " + variklis.getTipas() + " | " + "Metai: " + variklis.getMetai() + " | " + "Marke: " + ((AutomobilisImpl) variklis).getMarke() + " | " + ((AutomobilisImpl) variklis).getDurys() + " duru");
                 }
             }

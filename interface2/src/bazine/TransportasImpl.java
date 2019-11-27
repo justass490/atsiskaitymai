@@ -6,27 +6,33 @@ public class TransportasImpl implements Transportas {
     private String variklis;
     private int metai;
 
-    public TransportasImpl(String tipas, String variklis, int metai){
+    public TransportasImpl(String tipas, String variklis, int metai) {
         this.tipas = tipas;
         this.variklis = variklis;
         this.metai = metai;
     }
-    public String getTipas(){
+
+    public String getTipas() {
         return tipas;
     }
-    public void setTipas(String tipas){
+
+    public void setTipas(String tipas) {
         this.tipas = tipas;
     }
-    public String getVariklis(){
+
+    public String getVariklis() {
         return variklis;
     }
-    public void setVariklis(String variklis){
+
+    public void setVariklis(String variklis) {
         this.variklis = variklis;
     }
-    public int getMetai(){
+
+    public int getMetai() {
         return metai;
     }
-    public void setMetai(int metai){
+
+    public void setMetai(int metai) {
         this.metai = metai;
     }
 }
