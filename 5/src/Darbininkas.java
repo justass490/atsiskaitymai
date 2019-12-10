@@ -46,4 +46,12 @@ public class Darbininkas {
                 ", detalesKaina=" + detalesKaina +
                 '}';
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return Comparator.comparing(Darbininkas::getDetaliuKiekis)
+                .reversed()
+                .thenComparing(Darbininkas::getDetale)
+                .compare(this,(Darbininkas) o );
+    }
 }

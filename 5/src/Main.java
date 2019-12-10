@@ -46,9 +46,8 @@ public class Main{
         System.out.println("---------------------------------------------");
         System.out.println("|Suvestine pagal detaliu skaiciu|");
         System.out.println(" ");
-        for (Darbininkas i : list){
-            double suma = i.getDetalesKaina() * i.getDetaliuKiekis();
-            System.out.println("<detale: " + i.getDetale() + " > <kiekis: " + i.getDetaliuKiekis() + " > <suma: " + suma);
+        list.sort(Comparator.comparing(Darbininkas::getDetaliuKiekis, Collections.reverseOrder()).thenComparing(Darbininkas::getDetale
+	System.out.println(list);
         }
         System.out.println("---------------------------------------------");
         System.out.println("|Normos ivykdymas|");
